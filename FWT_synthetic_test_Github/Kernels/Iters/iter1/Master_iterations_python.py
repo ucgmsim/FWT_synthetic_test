@@ -199,9 +199,10 @@ nz=75
 nts=5000
 nt=500
 
-dx=0.4
-dy=0.4
-dz=0.4
+#dx=0.4
+dx=1.0
+dy=dx
+dz=dx
 dt=0.02
 
 iters=5
