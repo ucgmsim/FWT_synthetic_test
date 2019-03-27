@@ -10,6 +10,7 @@ Full waveform tomography for synthetic test case
 - Move the seismogram folders to Kernels/Vel_ob
 
 3. Prepare for inversion:
+- Calculate the distance matrix between each source and station by calling distance.py in Kernels/Iters/iter1 
 - Set the filter for functions: Read_GP_adj_calc_i_new_displacement_ts.py, Read_GP_obs_calc_err_rwm_new.py,  Read_GP_opt_calc_err_rwm_new.py in Kernels (To calculate the adjoint source, the misfit error at iteration and the misfit error for searching optimal step length).
 - Prepare gradient taper matrixs: run Tape_Geometry.py,  Tape_Gradients_nShot_exp.py in Kernels/Iters/iter1 to generate a tape matrix for each source (damping near source/ receiver effects) and a tape matrix for the whole domain (smoothening kernels close to the x,y-boundaries) to Kernels/Iters/iter1/Dump. Recommend to call in the corresponding slurm script since the job may take up to 2 hours for 8 sources and domain of 200x200x75.
 
