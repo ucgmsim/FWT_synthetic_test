@@ -63,7 +63,7 @@ set MODEL_LON = 172.559006104
 set MODEL_ROT = 0.0
 
 set BFILT = 4
-set FLO = 1.0
+set FLO = 0.5
 
 set DUMP_ITINC = 5000
 set DUMP_FLAG = 0
@@ -173,8 +173,8 @@ echo "vpvs_max_global=3.0"          >> $PARFILE
 ####
 
 set N_STRAIN_COMPS = 6
-set STRAIN_COMPS = "exxp,eyyp,eii3,exyp,exzp,eyzp"
-
+#set STRAIN_COMPS = "exxp,eyyp,eii3,exyp,exzp,eyzp"
+set STRAIN_COMPS = "exx,eyy,ezz,exy,exz,eyz"
 set MERGE_LOGDIR = Mlog
 set FILELIST = ${SIM_DIR_ROOT}/merge_filelist_new.txt
 
