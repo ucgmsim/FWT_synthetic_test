@@ -22,7 +22,7 @@ cd "$SLURM_SUBMIT_DIR"           # connect to working directory of sbatch
 # LOAD MODULES, INSERT CODE, AND RUN YOUR PROGRAMS HERE
 
 #srun python Read_Dev_strain_Calc_kernels_iter1.py
-#srun python calc_kernels_v2.py
-srun python calc_kernels_vsp.py
+srun python calc_kernels_vsp_new.py
+#srun python calc_kernels_vsp.py
 echo "Done" `date`
 exit
