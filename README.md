@@ -1,5 +1,5 @@
 # FWT_synthetic_test
-A) Full waveform tomography explicit workflow
+A) Full waveform tomography, explicit workflow
 
 1. Create test configuration: Run Test_configuration.py in the Master folder
 - Create initial and true models,move the velocity files to Model/Mdels
