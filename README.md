@@ -44,8 +44,9 @@ vi) Calculate the optimal step length for model updating by call in Step_length_
   
 
 B) Full waveform tomography, embarassing-parallel workflow:
-    Create folder PART1 in the main folder FWT_synthetic_test and copy all subfolder from outside to PART1: Model, StaInfo, FwdSims, AdjSims,Kernels.
-    In an example, for 16 sources simulation, we can create similar folder PART2, PART3, PART4. In folder PART1, we run simulation for sources 1-4; in folder PART2, run simulation for sources 5-8, and so on.
+
+   Create folder PART1 in the main folder FWT_synthetic_test and copy all subfolder from outside to PART1: Model, StaInfo, FwdSims, AdjSims,Kernels.
+   In an example, for 16 sources simulation, we can create similar folder PART2, PART3, PART4. In folder PART1, we run simulation for sources 1-4; in folder PART2, run simulation for sources 5-8, and so on.
     
    Run Master_iterations_SLURM.py in Kernels/Iters/iter1 to do inversion (Master script/ Master session). The steps for one inversion iteration include: 
 - Copy parameter files to run simulation in different parts: 
