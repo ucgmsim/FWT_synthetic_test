@@ -1,5 +1,5 @@
 # FWT_synthetic_test
-Full waveform tomography explicit workflow
+A) Full waveform tomography explicit workflow
 
 1. Create test configuration: Run Test_configuration.py in the Master folder
 - Create initial and true models,move the velocity files to Model/Mdels
@@ -43,11 +43,11 @@ vi) Calculate the optimal step length for model updating by call in Step_length_
   - if the optimal step length does not exist, terminate the iteration process or start the current iteration again with higher frequency data.
   
 
-Full waveform tomography, embarassing-parallel workflow:
+B) Full waveform tomography, embarassing-parallel workflow:
     Create folder PART1 in the main folder FWT_synthetic_test and copy all subfolder from outside to PART1: Model, StaInfo, FwdSims, AdjSims,Kernels.
     In an example, for 16 sources simulation, we can create similar folder PART2, PART3, PART4. In folder PART1, we run simulation for sources 1-4; in folder PART2, run simulation for sources 5-8, and so on.
     
-    Run Master_iterations_SLURM.py in Kernels/Iters/iter1 to do inversion (Master script/ Master session). The steps for one inversion iteration include: 
+   Run Master_iterations_SLURM.py in Kernels/Iters/iter1 to do inversion (Master script/ Master session). The steps for one inversion iteration include: 
 - Copy parameter files to run simulation in different parts: 
 FWT_synthetic_test/FWT_synthetic_test_Github/Kernels/Iters/iter1/FWD/e3d_mysource_xyz_default.par.part to FWT_synthetic_test/FWT_synthetic_test_Github/PART1/Kernels/Iters/iter1/FWD/e3d_mysource_xyz_default.par
 
