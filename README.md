@@ -1,5 +1,5 @@
 # FWT_synthetic_test
-Full waveform tomography for synthetic test case
+Full waveform tomography explicit workflow
 
 1. Create test configuration: Run Test_configuration.py in the Master folder
 - Create initial and true models,move the velocity files to Model/Mdels
@@ -43,7 +43,31 @@ vi) Calculate the optimal step length for model updating by call in Step_length_
   - if the optimal step length does not exist, terminate the iteration process or start the current iteration again with higher frequency data.
   
 
+Full waveform tomography, embarassing-parallel workflow:
+    Create folder PART1 in the main folder FWT_synthetic_test and copy all subfolder from outside to PART1: Model, StaInfo, FwdSims, AdjSims,Kernels.
+    In an example, for 16 sources simulation, we can create similar folder PART2, PART3, PART4. In folder PART1, we run simulation for sources 1-4; in folder PART2, run simulation for sources 5-8, and so on.
+    
+    Run Master_iterations_SLURM.py in Kernels/Iters/iter1 to do inversion (Master script/ Master session). The steps for one inversion iteration include: 
+- Copy parameter files to run simulation in different parts: 
+FWT_synthetic_test/FWT_synthetic_test_Github/Kernels/Iters/iter1/FWD/e3d_mysource_xyz_default.par.part to FWT_synthetic_test/FWT_synthetic_test_Github/PART1/Kernels/Iters/iter1/FWD/e3d_mysource_xyz_default.par
 
+FWT_synthetic_test/FWT_synthetic_test_Github/Kernels/Iters/iter1/ADJ/set_run+merge_params_new_h.csh.part to 
+FWT_synthetic_test/FWT_synthetic_test_Github/PART1/Kernels/Iters/iter1/ADJ/set_run+merge_params_new_h.csh.part 
+
+- Open a new session (instance) for FWT_synthetic_test/FWT_synthetic_test_Github/PART1/Kernels/Iters/iter1 and call a python script Master_iterations_part_i.py to run simulations for a number of events in this instance. The output from this run includes kernels in Kernels/Iters/iter1/All_shots and simulated data in Kernels/Vel_es for corresponding events.
+
+-Go back to the Master session in Kernels/Iters/iter1, continue running the Master script Master_iterations_SLURM.py:
+  + Sum and tape the kernels for all sources to get the gradient direction by submitting job: sum_kernel.sl   
+  + Constrain and join update the gradients by submit job: precondition_gradient.sl; Save the gradients for the current iterations to Kernels/Iters/iter1/Dump.
+  + Calculate the current misfit function by submitting job: observed_misfit.sl   
+  + Calculate the optimal step length for model updating by call in Step_length_2 function in the Master python script.
+ 
+ -Update from the explicit workflow: 
+  + All computations including read and write model files are submitted in a maui job.
+  + 4 jobs for a specific source (event) are submitted in a checked sequence (job 1 finished, then job 2 submitted)
+  + Check for misfit according to the optimal step length found before updating to make sure the error decreases at the next iteration.
+  
+  
 
 
 
