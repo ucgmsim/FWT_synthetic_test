@@ -138,14 +138,15 @@ ipart=np.int64(np.fromfile(fi1,dtype='int64'))
 fi1.close()    
 ipart=int(ipart)
 os.system('rm -r ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/*')
-for ishot in range(16,16+1):
-
+#for ishot in range(16,16+1):
+for ishot in range((ipart-1)*int(nShot/4)+1,ipart*int(nShot/4)+1):
     fi=open('iShot.dat','w')
     (np.int64(ishot)).tofile(fi)
     fi.close() 
     print('isource='+str(ishot))
     os.system('rm -r ../../../../Kernels/Vel_es/Vel_es_'+str(ishot)+'/*')
-    os.system('rm -r ../../../../Kernels/Iters/iter1/All_shots/*'+str(ishot)+'.txt')
+    os.system('rm -r ../../../../Kernels/Iters/iter1/All_shots/GS_shot'+str(ishot)+'.txt')
+    os.system('rm -r ../../../../Kernels/Iters/iter1/All_shots/GP_shot'+str(ishot)+'.txt')    
     os.system('rm ../../Dev_Strain/*')
 
     os.system('cp ../../../../Kernels/Vel_ob/Vel_ob_'+str(ishot)+'/*.* ../../Vel_ob/Vel_ob_i/')       
@@ -159,7 +160,7 @@ for ishot in range(16,16+1):
     submit_time = datetime.now().strftime('%Y-%m-%d')
     jobid = submit_script(job_file11)
     wait_job_to_finish(jobid,submit_time)
-    print("fw emod3d finished")
+#    print("fw emod3d finished")
 #    sys.exit()
 #python -c "from qcore import timeseries as ts; lf = ts.LFSeis('$FWD/OutBin'); lf.all2txt(prefix='$Vel_es_i/')"    
 #    ts.LFSeis('../../../FwdSims/V3.0.7-xyz/OutBin').all2txt(prefix='../../Vel_es/Vel_es_i/')
@@ -170,7 +171,7 @@ for ishot in range(16,16+1):
     submit_time = datetime.now().strftime('%Y-%m-%d')
     jobid = submit_script(job_file)
     wait_job_to_finish(jobid,submit_time)
-    print("adjoint source calculation finished")
+#    print("adjoint source calculation finished")
 
 
 #input('Press 1 then Enter to continue')
@@ -180,7 +181,7 @@ for ishot in range(16,16+1):
     submit_time = datetime.now().strftime('%Y-%m-%d')
     jobid = submit_script(job_file12)
     wait_job_to_finish(jobid,submit_time)
-    print("bw emod3d finished")
+#    print("bw emod3d finished")
 
 
     os.system('rm -r ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/*')
@@ -191,12 +192,12 @@ for ishot in range(16,16+1):
     submit_time = datetime.now().strftime('%Y-%m-%d')
     jobid = submit_script(job_file2)
     wait_job_to_finish(jobid,submit_time)
-    print("kernel calculation finished")
-
+#    print("kernel calculation finished")
+#    time.sleep(5)
     os.system('mv ../../Vel_es/Vel_es_i/*.* ../../../../Kernels/Vel_es/Vel_es_'+str(ishot))          
     os.system('mv KS.txt ../../../../Kernels/Iters/iter1/All_shots/GS_shot'+str(ishot)+'.txt')
     os.system('mv KP.txt ../../../../Kernels/Iters/iter1/All_shots/GP_shot'+str(ishot)+'.txt')
-
+    time.sleep(5)
 
 
     

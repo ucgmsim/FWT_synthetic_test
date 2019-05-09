@@ -100,6 +100,10 @@ for ishot in range((ipart-1)*int(nShot/4)+1,ipart*int(nShot/4)+1):
     fi.close() 
     print('isource='+str(ishot))
     #os.system('rm -r ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/*')
+    os.system('rm -r ../../../../Kernels/Vel_es/Vel_es_'+str(ishot)+'/*')
+    os.system('rm -r ../../../../Kernels/Iters/iter1/All_shots/GS_shot'+str(ishot)+'.txt')
+    os.system('rm -r ../../../../Kernels/Iters/iter1/All_shots/GP_shot'+str(ishot)+'.txt')
+
     os.system('rm ../../Dev_Strain/*')
 
     os.system('cp ../../../../Kernels/Vel_ob/Vel_ob_'+str(ishot)+'/*.* ../../Vel_ob/Vel_ob_i/')       
@@ -107,7 +111,7 @@ for ishot in range((ipart-1)*int(nShot/4)+1,ipart*int(nShot/4)+1):
     
     job_file11 = 'FWT_emod3d_shot_i_part1.sl'
     os.system("sbatch %s" %job_file11)
-    time.sleep(160)
+    time.sleep(180)
 #python -c "from qcore import timeseries as ts; lf = ts.LFSeis('$FWD/OutBin'); lf.all2txt(prefix='$Vel_es_i/')"    
 #    ts.LFSeis('../../../FwdSims/V3.0.7-xyz/OutBin').all2txt(prefix='../../Vel_es/Vel_es_i/')
 
@@ -117,12 +121,12 @@ for ishot in range((ipart-1)*int(nShot/4)+1,ipart*int(nShot/4)+1):
     #input('Press 1 then Enter to continue')
     job_file12 = 'FWT_emod3d_shot_i_part2.sl'
     os.system("sbatch %s" %job_file12)
-    time.sleep(160)
+    time.sleep(180)
 
     os.system('rm -r ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/*')
     job_file2 = 'kernel_shot_i_iter1.sl'
     os.system("sbatch %s" %job_file2)
-    time.sleep(220)
+    time.sleep(240)
     os.system('mv ../../Vel_es/Vel_es_i/*.* ../../../../Kernels/Vel_es/Vel_es_'+str(ishot))          
     os.system('mv KS.txt ../../../../Kernels/Iters/iter1/All_shots/GS_shot'+str(ishot)+'.txt')
     os.system('mv KP.txt ../../../../Kernels/Iters/iter1/All_shots/GP_shot'+str(ishot)+'.txt')
