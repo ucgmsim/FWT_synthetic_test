@@ -1,0 +1,428 @@
+Sun Dec  8 01:46:01 2019: [unset]:_pmi_alps_init:alps_get_placement_info returned with error -1
+Sun Dec  8 01:46:01 2019: [unset]:_pmi_init:_pmi_alps_init returned -1
+adj_tfastest= 1
+   adj_comp 0: vx
+   adj_comp 1: vy
+   adj_comp 2: vz
+
+*** processing:    43    32     1   2000 0.00000 0.00000 HALS ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/HALS.x ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/HALS.y ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/HALS.z
+*** processing:    46    35     1   2000 0.00000 0.00000 GOVS ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/GOVS.x ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/GOVS.y ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/GOVS.z
+*** processing:    49    34     1   2000 0.00000 0.00000 DHSS ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/DHSS.x ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/DHSS.y ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/DHSS.z
+*** processing:    46    38     1   2000 0.00000 0.00000 MQZ ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/MQZ.x ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/MQZ.y ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/MQZ.z
+*** processing:    35    16     1   2000 0.00000 0.00000 CSTC ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/CSTC.x ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/CSTC.y ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/CSTC.z
+*** processing:    47    20     1   2000 0.00000 0.00000 KPOC ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/KPOC.x ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/KPOC.y ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/KPOC.z
+*** processing:    33    13     1   2000 0.00000 0.00000 SMHS ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/SMHS.x ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/SMHS.y ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/SMHS.z
+*** processing:    46    31     1   2000 0.00000 0.00000 HUNS ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/HUNS.x ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/HUNS.y ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/HUNS.z
+*** processing:    39    33     1   2000 0.00000 0.00000 LINC ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/LINC.x ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/LINC.y ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/LINC.z
+*** processing:    49     7     1   2000 0.00000 0.00000 AMBC ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/AMBC.x ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/AMBC.y ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/AMBC.z
+*** processing:    49    27     1   2000 0.00000 0.00000 NBLC ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/NBLC.x ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/NBLC.y ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/NBLC.z
+*** processing:    18    29     1   2000 0.00000 0.00000 HORC ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/HORC.x ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/HORC.y ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/HORC.z
+*** processing:    17    17     1   2000 0.00000 0.00000 SPRS ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/SPRS.x ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/SPRS.y ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/SPRS.z
+*** processing:    46    28     1   2000 0.00000 0.00000 REHS ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/REHS.x ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/REHS.y ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/REHS.z
+*** processing:    14    17     1   2000 0.00000 0.00000 KOWC ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/KOWC.x ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/KOWC.y ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/KOWC.z
+*** processing:    14    24     1   2000 0.00000 0.00000 WCSS ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/WCSS.x ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/WCSS.y ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/WCSS.z
+*** processing:    21    20     1   2000 0.00000 0.00000 SHFC ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/SHFC.x ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/SHFC.y ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/SHFC.z
+*** processing:    30    44     1   2000 0.00000 0.00000 SBRC ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/SBRC.x ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/SBRC.y ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/SBRC.z
+*** processing:    59    44     1   2000 0.00000 0.00000 AKSS ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/AKSS.x ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/AKSS.y ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/AKSS.z
+*** processing:    24    49     1   2000 0.00000 0.00000 DORC ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/DORC.x ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/DORC.y ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/DORC.z
+*** processing:    28    36     1   2000 0.00000 0.00000 DSLC ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/DSLC.x ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/DSLC.y ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/DSLC.z
+*** processing:    23    31     1   2000 0.00000 0.00000 GDLC ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/GDLC.x ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/GDLC.y ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/GDLC.z
+*** processing:     9    11     1   2000 0.00000 0.00000 CSHS ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/CSHS.x ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/CSHS.y ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/CSHS.z
+*** processing:    59    34     1   2000 0.00000 0.00000 MNZS ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/MNZS.x ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/MNZS.y ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/MNZS.z
+*** processing:    47    27     1   2000 0.00000 0.00000 DALS ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/DALS.x ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/DALS.y ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/DALS.z
+*** processing:    12    39     1   2000 0.00000 0.00000 LRSC ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/LRSC.x ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/LRSC.y ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/LRSC.z
+*** processing:    44    26     1   2000 0.00000 0.00000 PPHS ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/PPHS.x ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/PPHS.y ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/PPHS.z
+*** processing:    46    32     1   2000 0.00000 0.00000 STKS ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/STKS.x ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/STKS.y ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/STKS.z
+*** processing:    41    26     1   2000 0.00000 0.00000 CACS ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/CACS.x ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/CACS.y ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/CACS.z
+*** processing:     4    45     1   2000 0.00000 0.00000 WSFC ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/WSFC.x ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/WSFC.y ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/WSFC.z
+*** processing:    46    29     1   2000 0.00000 0.00000 CCCC ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/CCCC.x ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/CCCC.y ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/CCCC.z
+*** processing:    21    40     1   2000 0.00000 0.00000 RKAC ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/RKAC.x ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/RKAC.y ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/RKAC.z
+*** processing:    35    32     1   2000 0.00000 0.00000 ROLC ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/ROLC.x ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/ROLC.y ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/ROLC.z
+*** processing:    21    17     1   2000 0.00000 0.00000 OXZ ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/OXZ.x ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/OXZ.y ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/OXZ.z
+*** processing:    49    32     1   2000 0.00000 0.00000 LPCC ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/LPCC.x ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/LPCC.y ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/LPCC.z
+*** processing:    44    30     1   2000 0.00000 0.00000 HHSS ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/HHSS.x ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/HHSS.y ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/HHSS.z
+*** processing:    47    23     1   2000 0.00000 0.00000 OHSS ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/OHSS.x ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/OHSS.y ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/OHSS.z
+*** processing:    45    28     1   2000 0.00000 0.00000 CBGS ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/CBGS.x ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/CBGS.y ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/CBGS.z
+*** processing:    47    30     1   2000 0.00000 0.00000 OPWS ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/OPWS.x ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/OPWS.y ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/OPWS.z
+*** processing:    40    19     1   2000 0.00000 0.00000 SWNC ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/SWNC.x ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/SWNC.y ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/SWNC.z
+*** processing:    49    30     1   2000 0.00000 0.00000 MENS ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/MENS.x ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/MENS.y ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/MENS.z
+*** processing:    51    31     1   2000 0.00000 0.00000 GODS ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/GODS.x ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/GODS.y ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/GODS.z
+*** processing:    39    29     1   2000 0.00000 0.00000 TPLC ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/TPLC.x ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/TPLC.y ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/TPLC.z
+*** processing:    43    28     1   2000 0.00000 0.00000 RHSC ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/RHSC.x ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/RHSC.y ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/RHSC.z
+*** processing:    47    28     1   2000 0.00000 0.00000 PRPC ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/PRPC.x ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/PRPC.y ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/PRPC.z
+*** processing:    50    30     1   2000 0.00000 0.00000 PARS ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/PARS.x ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/PARS.y ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/PARS.z
+*** processing:    45    30     1   2000 0.00000 0.00000 CMHS ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/CMHS.x ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/CMHS.y ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/CMHS.z
+*** processing:     6    30     1   2000 0.00000 0.00000 MTHS ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/MTHS.x ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/MTHS.y ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/MTHS.z
+*** processing:    46    27     1   2000 0.00000 0.00000 STAS ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/STAS.x ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/STAS.y ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/STAS.z
+*** processing:    45    27     1   2000 0.00000 0.00000 SACS ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/SACS.x ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/SACS.y ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/SACS.z
+*** processing:    46    26     1   2000 0.00000 0.00000 MPSS ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/MPSS.x ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/MPSS.y ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/MPSS.z
+*** processing:    45    29     1   2000 0.00000 0.00000 MORS ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/MORS.x ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/MORS.y ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/MORS.z
+*** processing:    49    31     1   2000 0.00000 0.00000 MTPS ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/MTPS.x ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/MTPS.y ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/MTPS.z
+*** processing:    49    26     1   2000 0.00000 0.00000 NNBS ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/NNBS.x ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/NNBS.y ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/NNBS.z
+*** processing:    49    33     1   2000 0.00000 0.00000 LCQC ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/LCQC.x ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/LCQC.y ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/LCQC.z
+*** processing:    51    44     1   2000 0.00000 0.00000 TOKS ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/TOKS.x ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/TOKS.y ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/TOKS.z
+*** processing:    45    25     1   2000 0.00000 0.00000 SMTC ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/SMTC.x ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/SMTC.y ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/SMTC.z
+*** processing:    44    14     1   2000 0.00000 0.00000 ASHS ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/ASHS.x ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/ASHS.y ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/ASHS.z
+*** processing:    24    26     1   2000 0.00000 0.00000 DFHS ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/DFHS.x ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/DFHS.y ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/DFHS.z
+*** processing:    10    49     1   2000 0.00000 0.00000 ADCS ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/ADCS.x ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/ADCS.y ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/ADCS.z
+*** processing:    33    36     1   2000 0.00000 0.00000 SLRC ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/SLRC.x ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/SLRC.y ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/SLRC.z
+*** processing:    48    27     1   2000 0.00000 0.00000 HPSC ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/HPSC.x ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/HPSC.y ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/HPSC.z
+*** processing:    47    25     1   2000 0.00000 0.00000 BWHS ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/BWHS.x ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/BWHS.y ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/BWHS.z
+*** processing:    42    27     1   2000 0.00000 0.00000 MRSS ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/MRSS.x ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/MRSS.y ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/MRSS.z
+*** processing:    45    34     1   2000 0.00000 0.00000 D14C ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/D14C.x ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/D14C.y ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/D14C.z
+*** processing:    34    22     1   2000 0.00000 0.00000 EYRS ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/EYRS.x ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/EYRS.y ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/EYRS.z
+*** processing:    45    31     1   2000 0.00000 0.00000 CRLZ ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/CRLZ.x ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/CRLZ.y ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/CRLZ.z
+*** processing:    24    32     1   2000 0.00000 0.00000 COLD ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/COLD.x ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/COLD.y ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/COLD.z
+*** processing:    28    32     1   2000 0.00000 0.00000 TLED ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/TLED.x ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/TLED.y ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/TLED.z
+*** processing:    31    31     1   2000 0.00000 0.00000 KVSD ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/KVSD.x ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/KVSD.y ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/KVSD.z
+
+isrc= 0
+   ix= 43 iy= 32 iz= 1 nt= 2000 name= HALS
+      comp 0: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/HALS.x
+      comp 1: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/HALS.y
+      comp 2: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/HALS.z
+isrc= 1
+   ix= 46 iy= 35 iz= 1 nt= 2000 name= GOVS
+      comp 0: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/GOVS.x
+      comp 1: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/GOVS.y
+      comp 2: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/GOVS.z
+isrc= 2
+   ix= 49 iy= 34 iz= 1 nt= 2000 name= DHSS
+      comp 0: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/DHSS.x
+      comp 1: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/DHSS.y
+      comp 2: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/DHSS.z
+isrc= 3
+   ix= 46 iy= 38 iz= 1 nt= 2000 name= MQZ
+      comp 0: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/MQZ.x
+      comp 1: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/MQZ.y
+      comp 2: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/MQZ.z
+isrc= 4
+   ix= 35 iy= 16 iz= 1 nt= 2000 name= CSTC
+      comp 0: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/CSTC.x
+      comp 1: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/CSTC.y
+      comp 2: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/CSTC.z
+isrc= 5
+   ix= 47 iy= 20 iz= 1 nt= 2000 name= KPOC
+      comp 0: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/KPOC.x
+      comp 1: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/KPOC.y
+      comp 2: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/KPOC.z
+isrc= 6
+   ix= 33 iy= 13 iz= 1 nt= 2000 name= SMHS
+      comp 0: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/SMHS.x
+      comp 1: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/SMHS.y
+      comp 2: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/SMHS.z
+isrc= 7
+   ix= 46 iy= 31 iz= 1 nt= 2000 name= HUNS
+      comp 0: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/HUNS.x
+      comp 1: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/HUNS.y
+      comp 2: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/HUNS.z
+isrc= 8
+   ix= 39 iy= 33 iz= 1 nt= 2000 name= LINC
+      comp 0: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/LINC.x
+      comp 1: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/LINC.y
+      comp 2: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/LINC.z
+isrc= 9
+   ix= 49 iy= 7 iz= 1 nt= 2000 name= AMBC
+      comp 0: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/AMBC.x
+      comp 1: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/AMBC.y
+      comp 2: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/AMBC.z
+isrc= 10
+   ix= 49 iy= 27 iz= 1 nt= 2000 name= NBLC
+      comp 0: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/NBLC.x
+      comp 1: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/NBLC.y
+      comp 2: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/NBLC.z
+isrc= 11
+   ix= 18 iy= 29 iz= 1 nt= 2000 name= HORC
+      comp 0: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/HORC.x
+      comp 1: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/HORC.y
+      comp 2: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/HORC.z
+isrc= 12
+   ix= 17 iy= 17 iz= 1 nt= 2000 name= SPRS
+      comp 0: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/SPRS.x
+      comp 1: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/SPRS.y
+      comp 2: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/SPRS.z
+isrc= 13
+   ix= 46 iy= 28 iz= 1 nt= 2000 name= REHS
+      comp 0: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/REHS.x
+      comp 1: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/REHS.y
+      comp 2: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/REHS.z
+isrc= 14
+   ix= 14 iy= 17 iz= 1 nt= 2000 name= KOWC
+      comp 0: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/KOWC.x
+      comp 1: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/KOWC.y
+      comp 2: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/KOWC.z
+isrc= 15
+   ix= 14 iy= 24 iz= 1 nt= 2000 name= WCSS
+      comp 0: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/WCSS.x
+      comp 1: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/WCSS.y
+      comp 2: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/WCSS.z
+isrc= 16
+   ix= 21 iy= 20 iz= 1 nt= 2000 name= SHFC
+      comp 0: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/SHFC.x
+      comp 1: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/SHFC.y
+      comp 2: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/SHFC.z
+isrc= 17
+   ix= 30 iy= 44 iz= 1 nt= 2000 name= SBRC
+      comp 0: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/SBRC.x
+      comp 1: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/SBRC.y
+      comp 2: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/SBRC.z
+isrc= 18
+   ix= 59 iy= 44 iz= 1 nt= 2000 name= AKSS
+      comp 0: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/AKSS.x
+      comp 1: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/AKSS.y
+      comp 2: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/AKSS.z
+isrc= 19
+   ix= 24 iy= 49 iz= 1 nt= 2000 name= DORC
+      comp 0: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/DORC.x
+      comp 1: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/DORC.y
+      comp 2: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/DORC.z
+isrc= 20
+   ix= 28 iy= 36 iz= 1 nt= 2000 name= DSLC
+      comp 0: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/DSLC.x
+      comp 1: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/DSLC.y
+      comp 2: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/DSLC.z
+isrc= 21
+   ix= 23 iy= 31 iz= 1 nt= 2000 name= GDLC
+      comp 0: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/GDLC.x
+      comp 1: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/GDLC.y
+      comp 2: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/GDLC.z
+isrc= 22
+   ix= 9 iy= 11 iz= 1 nt= 2000 name= CSHS
+      comp 0: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/CSHS.x
+      comp 1: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/CSHS.y
+      comp 2: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/CSHS.z
+isrc= 23
+   ix= 59 iy= 34 iz= 1 nt= 2000 name= MNZS
+      comp 0: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/MNZS.x
+      comp 1: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/MNZS.y
+      comp 2: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/MNZS.z
+isrc= 24
+   ix= 47 iy= 27 iz= 1 nt= 2000 name= DALS
+      comp 0: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/DALS.x
+      comp 1: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/DALS.y
+      comp 2: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/DALS.z
+isrc= 25
+   ix= 12 iy= 39 iz= 1 nt= 2000 name= LRSC
+      comp 0: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/LRSC.x
+      comp 1: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/LRSC.y
+      comp 2: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/LRSC.z
+isrc= 26
+   ix= 44 iy= 26 iz= 1 nt= 2000 name= PPHS
+      comp 0: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/PPHS.x
+      comp 1: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/PPHS.y
+      comp 2: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/PPHS.z
+isrc= 27
+   ix= 46 iy= 32 iz= 1 nt= 2000 name= STKS
+      comp 0: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/STKS.x
+      comp 1: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/STKS.y
+      comp 2: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/STKS.z
+isrc= 28
+   ix= 41 iy= 26 iz= 1 nt= 2000 name= CACS
+      comp 0: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/CACS.x
+      comp 1: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/CACS.y
+      comp 2: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/CACS.z
+isrc= 29
+   ix= 4 iy= 45 iz= 1 nt= 2000 name= WSFC
+      comp 0: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/WSFC.x
+      comp 1: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/WSFC.y
+      comp 2: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/WSFC.z
+isrc= 30
+   ix= 46 iy= 29 iz= 1 nt= 2000 name= CCCC
+      comp 0: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/CCCC.x
+      comp 1: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/CCCC.y
+      comp 2: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/CCCC.z
+isrc= 31
+   ix= 21 iy= 40 iz= 1 nt= 2000 name= RKAC
+      comp 0: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/RKAC.x
+      comp 1: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/RKAC.y
+      comp 2: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/RKAC.z
+isrc= 32
+   ix= 35 iy= 32 iz= 1 nt= 2000 name= ROLC
+      comp 0: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/ROLC.x
+      comp 1: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/ROLC.y
+      comp 2: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/ROLC.z
+isrc= 33
+   ix= 21 iy= 17 iz= 1 nt= 2000 name= OXZ
+      comp 0: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/OXZ.x
+      comp 1: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/OXZ.y
+      comp 2: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/OXZ.z
+isrc= 34
+   ix= 49 iy= 32 iz= 1 nt= 2000 name= LPCC
+      comp 0: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/LPCC.x
+      comp 1: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/LPCC.y
+      comp 2: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/LPCC.z
+isrc= 35
+   ix= 44 iy= 30 iz= 1 nt= 2000 name= HHSS
+      comp 0: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/HHSS.x
+      comp 1: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/HHSS.y
+      comp 2: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/HHSS.z
+isrc= 36
+   ix= 47 iy= 23 iz= 1 nt= 2000 name= OHSS
+      comp 0: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/OHSS.x
+      comp 1: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/OHSS.y
+      comp 2: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/OHSS.z
+isrc= 37
+   ix= 45 iy= 28 iz= 1 nt= 2000 name= CBGS
+      comp 0: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/CBGS.x
+      comp 1: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/CBGS.y
+      comp 2: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/CBGS.z
+isrc= 38
+   ix= 47 iy= 30 iz= 1 nt= 2000 name= OPWS
+      comp 0: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/OPWS.x
+      comp 1: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/OPWS.y
+      comp 2: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/OPWS.z
+isrc= 39
+   ix= 40 iy= 19 iz= 1 nt= 2000 name= SWNC
+      comp 0: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/SWNC.x
+      comp 1: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/SWNC.y
+      comp 2: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/SWNC.z
+isrc= 40
+   ix= 49 iy= 30 iz= 1 nt= 2000 name= MENS
+      comp 0: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/MENS.x
+      comp 1: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/MENS.y
+      comp 2: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/MENS.z
+isrc= 41
+   ix= 51 iy= 31 iz= 1 nt= 2000 name= GODS
+      comp 0: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/GODS.x
+      comp 1: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/GODS.y
+      comp 2: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/GODS.z
+isrc= 42
+   ix= 39 iy= 29 iz= 1 nt= 2000 name= TPLC
+      comp 0: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/TPLC.x
+      comp 1: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/TPLC.y
+      comp 2: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/TPLC.z
+isrc= 43
+   ix= 43 iy= 28 iz= 1 nt= 2000 name= RHSC
+      comp 0: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/RHSC.x
+      comp 1: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/RHSC.y
+      comp 2: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/RHSC.z
+isrc= 44
+   ix= 47 iy= 28 iz= 1 nt= 2000 name= PRPC
+      comp 0: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/PRPC.x
+      comp 1: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/PRPC.y
+      comp 2: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/PRPC.z
+isrc= 45
+   ix= 50 iy= 30 iz= 1 nt= 2000 name= PARS
+      comp 0: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/PARS.x
+      comp 1: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/PARS.y
+      comp 2: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/PARS.z
+isrc= 46
+   ix= 45 iy= 30 iz= 1 nt= 2000 name= CMHS
+      comp 0: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/CMHS.x
+      comp 1: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/CMHS.y
+      comp 2: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/CMHS.z
+isrc= 47
+   ix= 6 iy= 30 iz= 1 nt= 2000 name= MTHS
+      comp 0: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/MTHS.x
+      comp 1: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/MTHS.y
+      comp 2: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/MTHS.z
+isrc= 48
+   ix= 46 iy= 27 iz= 1 nt= 2000 name= STAS
+      comp 0: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/STAS.x
+      comp 1: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/STAS.y
+      comp 2: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/STAS.z
+isrc= 49
+   ix= 45 iy= 27 iz= 1 nt= 2000 name= SACS
+      comp 0: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/SACS.x
+      comp 1: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/SACS.y
+      comp 2: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/SACS.z
+isrc= 50
+   ix= 46 iy= 26 iz= 1 nt= 2000 name= MPSS
+      comp 0: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/MPSS.x
+      comp 1: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/MPSS.y
+      comp 2: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/MPSS.z
+isrc= 51
+   ix= 45 iy= 29 iz= 1 nt= 2000 name= MORS
+      comp 0: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/MORS.x
+      comp 1: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/MORS.y
+      comp 2: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/MORS.z
+isrc= 52
+   ix= 49 iy= 31 iz= 1 nt= 2000 name= MTPS
+      comp 0: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/MTPS.x
+      comp 1: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/MTPS.y
+      comp 2: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/MTPS.z
+isrc= 53
+   ix= 49 iy= 26 iz= 1 nt= 2000 name= NNBS
+      comp 0: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/NNBS.x
+      comp 1: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/NNBS.y
+      comp 2: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/NNBS.z
+isrc= 54
+   ix= 49 iy= 33 iz= 1 nt= 2000 name= LCQC
+      comp 0: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/LCQC.x
+      comp 1: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/LCQC.y
+      comp 2: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/LCQC.z
+isrc= 55
+   ix= 51 iy= 44 iz= 1 nt= 2000 name= TOKS
+      comp 0: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/TOKS.x
+      comp 1: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/TOKS.y
+      comp 2: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/TOKS.z
+isrc= 56
+   ix= 45 iy= 25 iz= 1 nt= 2000 name= SMTC
+      comp 0: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/SMTC.x
+      comp 1: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/SMTC.y
+      comp 2: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/SMTC.z
+isrc= 57
+   ix= 44 iy= 14 iz= 1 nt= 2000 name= ASHS
+      comp 0: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/ASHS.x
+      comp 1: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/ASHS.y
+      comp 2: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/ASHS.z
+isrc= 58
+   ix= 24 iy= 26 iz= 1 nt= 2000 name= DFHS
+      comp 0: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/DFHS.x
+      comp 1: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/DFHS.y
+      comp 2: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/DFHS.z
+isrc= 59
+   ix= 10 iy= 49 iz= 1 nt= 2000 name= ADCS
+      comp 0: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/ADCS.x
+      comp 1: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/ADCS.y
+      comp 2: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/ADCS.z
+isrc= 60
+   ix= 33 iy= 36 iz= 1 nt= 2000 name= SLRC
+      comp 0: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/SLRC.x
+      comp 1: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/SLRC.y
+      comp 2: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/SLRC.z
+isrc= 61
+   ix= 48 iy= 27 iz= 1 nt= 2000 name= HPSC
+      comp 0: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/HPSC.x
+      comp 1: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/HPSC.y
+      comp 2: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/HPSC.z
+isrc= 62
+   ix= 47 iy= 25 iz= 1 nt= 2000 name= BWHS
+      comp 0: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/BWHS.x
+      comp 1: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/BWHS.y
+      comp 2: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/BWHS.z
+isrc= 63
+   ix= 42 iy= 27 iz= 1 nt= 2000 name= MRSS
+      comp 0: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/MRSS.x
+      comp 1: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/MRSS.y
+      comp 2: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/MRSS.z
+isrc= 64
+   ix= 45 iy= 34 iz= 1 nt= 2000 name= D14C
+      comp 0: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/D14C.x
+      comp 1: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/D14C.y
+      comp 2: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/D14C.z
+isrc= 65
+   ix= 34 iy= 22 iz= 1 nt= 2000 name= EYRS
+      comp 0: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/EYRS.x
+      comp 1: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/EYRS.y
+      comp 2: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/EYRS.z
+isrc= 66
+   ix= 45 iy= 31 iz= 1 nt= 2000 name= CRLZ
+      comp 0: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/CRLZ.x
+      comp 1: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/CRLZ.y
+      comp 2: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/CRLZ.z
+isrc= 67
+   ix= 24 iy= 32 iz= 1 nt= 2000 name= COLD
+      comp 0: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/COLD.x
+      comp 1: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/COLD.y
+      comp 2: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/COLD.z
+isrc= 68
+   ix= 28 iy= 32 iz= 1 nt= 2000 name= TLED
+      comp 0: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/TLED.x
+      comp 1: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/TLED.y
+      comp 2: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/TLED.z
+isrc= 69
+   ix= 31 iy= 31 iz= 1 nt= 2000 name= KVSD
+      comp 0: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/KVSD.x
+      comp 1: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/KVSD.y
+      comp 2: ../../../AdjSims/V3.0.7-a2a_xyz/Adj-InputAscii/KVSD.z

@@ -1,0 +1,34 @@
+Total Moment: Mo=   1.71000e+23
+
+Spherical coords: r=Up, t=South, p=East
+   Mrr=   1.61356e+23
+   Mtt=  -4.63293e+22
+   Mpp=  -1.15026e+23
+   Mrt=  -4.55519e+22
+   Mrp=  -2.12446e+22
+   Mtp=  -7.75121e+22
+
+Cartesian coords (A&R): n=North, e=East, d=Down
+   Mnn=  -4.63293e+22
+   Mee=  -1.15026e+23
+   Mdd=   1.61356e+23
+   Mne=   7.75121e+22
+   Mnd=  -4.55519e+22
+   Med=   2.12446e+22
+
+Rotated Cartesian coords: x=  0, y= 90, z=Down
+   Mxx=  -4.63293e+22
+   Myy=  -1.15026e+23
+   Mzz=   1.61356e+23
+   Mxy=   7.75121e+22
+   Mxz=  -4.55519e+22
+   Myz=   2.12446e+22
+
+CHECK Rotated Cartesian coords:
+ c-Mxx=  -4.63293e+22
+ c-Myy=  -1.15026e+23
+ c-Mzz=   1.61356e+23
+ c-Mxy=   7.75121e+22
+ c-Mxz=  -4.55519e+22
+ c-Myz=   2.12446e+22
+

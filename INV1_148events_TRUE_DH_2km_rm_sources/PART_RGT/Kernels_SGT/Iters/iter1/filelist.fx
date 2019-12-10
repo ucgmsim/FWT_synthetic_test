@@ -1,0 +1,15 @@
+./OutBin/AAA-fx_sgt-00010.e3d
+./OutBin/AAA-fx_sgt-00019.e3d
+./OutBin/AAA-fx_sgt-00020.e3d
+./OutBin/AAA-fx_sgt-00021.e3d
+./OutBin/AAA-fx_sgt-00022.e3d
+./OutBin/AAA-fx_sgt-00025.e3d
+./OutBin/AAA-fx_sgt-00026.e3d
+./OutBin/AAA-fx_sgt-00027.e3d
+./OutBin/AAA-fx_sgt-00028.e3d
+./OutBin/AAA-fx_sgt-00029.e3d
+./OutBin/AAA-fx_sgt-00030.e3d
+./OutBin/AAA-fx_sgt-00035.e3d
+./OutBin/AAA-fx_sgt-00037.e3d
+./OutBin/AAA-fx_sgt-00038.e3d
+./OutBin/AAA-fx_sgt-00045.e3d

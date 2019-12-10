@@ -1,0 +1,229 @@
+***** This is merge_sgt
+      Running on node= nid00491 rank= 0
+
+**** Files to process are (filelist= filelist.fx):
+     ./OutBin/AAA-fx_sgt-00010.e3d
+     ./OutBin/AAA-fx_sgt-00019.e3d
+     ./OutBin/AAA-fx_sgt-00020.e3d
+     ./OutBin/AAA-fx_sgt-00021.e3d
+     ./OutBin/AAA-fx_sgt-00022.e3d
+     ./OutBin/AAA-fx_sgt-00025.e3d
+     ./OutBin/AAA-fx_sgt-00026.e3d
+     ./OutBin/AAA-fx_sgt-00027.e3d
+     ./OutBin/AAA-fx_sgt-00028.e3d
+     ./OutBin/AAA-fx_sgt-00029.e3d
+     ./OutBin/AAA-fx_sgt-00030.e3d
+     ./OutBin/AAA-fx_sgt-00035.e3d
+     ./OutBin/AAA-fx_sgt-00037.e3d
+     ./OutBin/AAA-fx_sgt-00038.e3d
+     ./OutBin/AAA-fx_sgt-00045.e3d
+
+processing file= ./OutBin/AAA-fx_sgt-00010.e3d
+   geoproj=             1
+   modellon=    172.30000
+   modellat=    -43.59999
+   modelrot=      0.00000
+   xshift=      -65.00000
+   yshift=      -65.00000
+   globnp=             18
+   localnp=             1
+   nt=               2000
+   *** reading global indices ... done
+   *** reading headers ... done
+        1 of 1 (local_indx= 002200100004 global_indx= 002200100004 xyz=   22  10   4)
+processing file= ./OutBin/AAA-fx_sgt-00019.e3d
+   geoproj=             1
+   modellon=    172.30000
+   modellat=    -43.59999
+   modelrot=      0.00000
+   xshift=      -65.00000
+   yshift=      -65.00000
+   globnp=             20
+   localnp=             1
+   nt=               2000
+   *** reading global indices ... done
+   *** reading headers ... done
+        1 of 1 (local_indx= 003000200001 global_indx= 003000200001 xyz=   30  20   1)
+processing file= ./OutBin/AAA-fx_sgt-00020.e3d
+   geoproj=             1
+   modellon=    172.30000
+   modellat=    -43.59999
+   modelrot=      0.00000
+   xshift=      -65.00000
+   yshift=      -65.00000
+   globnp=             20
+   localnp=             1
+   nt=               2000
+   *** reading global indices ... done
+   *** reading headers ... done
+        1 of 1 (local_indx= 003500200001 global_indx= 003500200001 xyz=   35  20   1)
+processing file= ./OutBin/AAA-fx_sgt-00021.e3d
+   geoproj=             1
+   modellon=    172.30000
+   modellat=    -43.59999
+   modelrot=      0.00000
+   xshift=      -65.00000
+   yshift=      -65.00000
+   globnp=             20
+   localnp=             2
+   nt=               2000
+   *** reading global indices ... done
+   *** reading headers ... done
+        1 of 2 (local_indx= 004000200001 global_indx= 004000200001 xyz=   40  20   1)
+        2 of 2 (local_indx= 004500200001 global_indx= 004500200001 xyz=   45  20   1)
+processing file= ./OutBin/AAA-fx_sgt-00022.e3d
+   geoproj=             1
+   modellon=    172.30000
+   modellat=    -43.59999
+   modelrot=      0.00000
+   xshift=      -65.00000
+   yshift=      -65.00000
+   globnp=             18
+   localnp=             2
+   nt=               2000
+   *** reading global indices ... done
+   *** reading headers ... done
+        1 of 2 (local_indx= 005400240003 global_indx= 005400240003 xyz=   54  24   3)
+        2 of 2 (local_indx= 005300240003 global_indx= 005300240003 xyz=   53  24   3)
+processing file= ./OutBin/AAA-fx_sgt-00025.e3d
+   geoproj=             1
+   modellon=    172.30000
+   modellat=    -43.59999
+   modelrot=      0.00000
+   xshift=      -65.00000
+   yshift=      -65.00000
+   globnp=             18
+   localnp=             1
+   nt=               2000
+   *** reading global indices ... done
+   *** reading headers ... done
+        1 of 1 (local_indx= 001600310004 global_indx= 001600310004 xyz=   16  31   4)
+processing file= ./OutBin/AAA-fx_sgt-00026.e3d
+   geoproj=             1
+   modellon=    172.30000
+   modellat=    -43.59999
+   modelrot=      0.00000
+   xshift=      -65.00000
+   yshift=      -65.00000
+   globnp=             18
+   localnp=             1
+   nt=               2000
+   *** reading global indices ... done
+   *** reading headers ... done
+        1 of 1 (local_indx= 001900300005 global_indx= 001900300005 xyz=   19  30   5)
+processing file= ./OutBin/AAA-fx_sgt-00027.e3d
+   geoproj=             1
+   modellon=    172.30000
+   modellat=    -43.59999
+   modelrot=      0.00000
+   xshift=      -65.00000
+   yshift=      -65.00000
+   globnp=             18
+   localnp=             1
+   nt=               2000
+   *** reading global indices ... done
+   *** reading headers ... done
+        1 of 1 (local_indx= 002600290004 global_indx= 002600290004 xyz=   26  29   4)
+processing file= ./OutBin/AAA-fx_sgt-00028.e3d
+   geoproj=             1
+   modellon=    172.30000
+   modellat=    -43.59999
+   modelrot=      0.00000
+   xshift=      -65.00000
+   yshift=      -65.00000
+   globnp=             18
+   localnp=             2
+   nt=               2000
+   *** reading global indices ... done
+   *** reading headers ... done
+        1 of 2 (local_indx= 003800320003 global_indx= 003800320003 xyz=   38  32   3)
+        2 of 2 (local_indx= 003600320004 global_indx= 003600320004 xyz=   36  32   4)
+processing file= ./OutBin/AAA-fx_sgt-00029.e3d
+   geoproj=             1
+   modellon=    172.30000
+   modellat=    -43.59999
+   modelrot=      0.00000
+   xshift=      -65.00000
+   yshift=      -65.00000
+   globnp=             20
+   localnp=             4
+   nt=               2000
+   *** reading global indices ... done
+   *** reading headers ... done
+        1 of 4 (local_indx= 004000250001 global_indx= 004000250001 xyz=   40  25   1)
+        2 of 4 (local_indx= 004000300001 global_indx= 004000300001 xyz=   40  30   1)
+        3 of 4 (local_indx= 004500250001 global_indx= 004500250001 xyz=   45  25   1)
+        4 of 4 (local_indx= 004500300001 global_indx= 004500300001 xyz=   45  30   1)
+processing file= ./OutBin/AAA-fx_sgt-00030.e3d
+   geoproj=             1
+   modellon=    172.30000
+   modellat=    -43.59999
+   modelrot=      0.00000
+   xshift=      -65.00000
+   yshift=      -65.00000
+   globnp=             18
+   localnp=             5
+   nt=               2000
+   *** reading global indices ... done
+   *** reading headers ... done
+        1 of 5 (local_indx= 005400260004 global_indx= 005400260004 xyz=   54  26   4)
+        2 of 5 (local_indx= 005100280004 global_indx= 005100280004 xyz=   51  28   4)
+        3 of 5 (local_indx= 005200280003 global_indx= 005200280003 xyz=   52  28   3)
+        4 of 5 (local_indx= 005100260003 global_indx= 005100260003 xyz=   51  26   3)
+        5 of 5 (local_indx= 005100270003 global_indx= 005100270003 xyz=   51  27   3)
+processing file= ./OutBin/AAA-fx_sgt-00035.e3d
+   geoproj=             1
+   modellon=    172.30000
+   modellat=    -43.59999
+   modelrot=      0.00000
+   xshift=      -65.00000
+   yshift=      -65.00000
+   globnp=             18
+   localnp=             2
+   nt=               2000
+   *** reading global indices ... done
+   *** reading headers ... done
+        1 of 2 (local_indx= 003000350007 global_indx= 003000350007 xyz=   30  35   7)
+        2 of 2 (local_indx= 002800340004 global_indx= 002800340004 xyz=   28  34   4)
+processing file= ./OutBin/AAA-fx_sgt-00037.e3d
+   geoproj=             1
+   modellon=    172.30000
+   modellat=    -43.59999
+   modelrot=      0.00000
+   xshift=      -65.00000
+   yshift=      -65.00000
+   globnp=             20
+   localnp=             2
+   nt=               2000
+   *** reading global indices ... done
+   *** reading headers ... done
+        1 of 2 (local_indx= 004000350001 global_indx= 004000350001 xyz=   40  35   1)
+        2 of 2 (local_indx= 004500350001 global_indx= 004500350001 xyz=   45  35   1)
+processing file= ./OutBin/AAA-fx_sgt-00038.e3d
+   geoproj=             1
+   modellon=    172.30000
+   modellat=    -43.59999
+   modelrot=      0.00000
+   xshift=      -65.00000
+   yshift=      -65.00000
+   globnp=             18
+   localnp=             3
+   nt=               2000
+   *** reading global indices ... done
+   *** reading headers ... done
+        1 of 3 (local_indx= 005200330003 global_indx= 005200330003 xyz=   52  33   3)
+        2 of 3 (local_indx= 005400350003 global_indx= 005400350003 xyz=   54  35   3)
+        3 of 3 (local_indx= 005400360003 global_indx= 005400360003 xyz=   54  36   3)
+processing file= ./OutBin/AAA-fx_sgt-00045.e3d
+   geoproj=             1
+   modellon=    172.30000
+   modellat=    -43.59999
+   modelrot=      0.00000
+   xshift=      -65.00000
+   yshift=      -65.00000
+   globnp=             20
+   localnp=             1
+   nt=               2000
+   *** reading global indices ... done
+   *** reading headers ... done
+        1 of 1 (local_indx= 004000400001 global_indx= 004000400001 xyz=   40  40   1)
