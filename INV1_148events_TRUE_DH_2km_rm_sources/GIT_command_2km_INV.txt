@@ -1,0 +1,70 @@
+	2179  cd /home/user/workspace/GMPlots/synth_VMs/Medium_VMs/FWT_synthetic_test_Github
+ 2180  ls
+ 2181  git status
+ 2182  ll
+ 2183  mkdir temp
+ 2184  cd temp/
+ 2185  git clone git@github.com:ucgmsim/FWT_synthetic_test.git
+ 2186  git clone https://github.com/ucgmsim/FWT_synthetic_test.git
+                                                                                                                            [0/1886]
+ 2186  git clone https://github.com/ucgmsim/FWT_synthetic_test.git
+ 2187  ll
+ 2188  cp ../INV1_148events_TRUE_DH_2km_rm_sources/ .
+ 2189  cp -R ../INV1_148events_TRUE_DH_2km_rm_sources/ .
+ 2190  ll
+ 2191  git status
+ 2192  cd FWT_synthetic_test/
+ 2193  mv ../INV1_148events_TRUE_DH_2km_rm_sources/ .
+ 2194  git status
+ 2195  ll
+ 2196  git add INV1_148events_TRUE_DH_2km_rm_sources/
+ 2197  git commit -m 'added INV1_148events_TRUE_DH_2km_rm_sources into repo'
+ 2198  git push
+ 2199  ll ~/.ssh/
+ 2200  vim ~/.ssh/config 
+ 2201  ssh-keygen --help
+ 2202  man ssh-keygen 
+ 2203  ssh-keygen -t rsa -b 4096
+ 2204  ll ~/.ssh/
+ 2205  vim ~/.ssh/id_rsa.pub 
+ 2206  cat ~/.ssh/id_rsa.pub
+ 2207  ll
+ 2208  cd ..
+ 2209  ll
+ 2210  rm -r FWT_synthetic_test/
+ 2211  rm -rf FWT_synthetic_test/
+ 2212  ll
+ 2213  git clone https://github.com/ucgmsim/FWT_synthetic_test.git
+ 2214  ll
+ 2215  cd FWT_synthetic_test/
+ 2216  ll
+ 2217  cp ../../INV1_148events_TRUE_DH_2km_rm_sources/ .
+ 2218  cp -R ../../INV1_148events_TRUE_DH_2km_rm_sources/ .
+ 2219  ll
+ 2220  git status
+ 2221  git add INV1_148events_TRUE_DH_2km_rm_sources/
+ 2222  git commit -m 'added INV1_148events_TRUE_DH_2km_rm_sources into repo'
+ 2223  git push
+ 2224  git staus
+ 2225  git status
+ 2226  git commit -m 'added INV1_148events_TRUE_DH_2km_rm_sources into repo'
+ 2227  git config --global user.email andrei.nguyen@canterbury.ac.nz
+ 2228  git config --global user.name Andrei1412
+ 2229  git commit -m 'added INV1_148events_TRUE_DH_2km_rm_sources into repo'
+ 2230  git push
+ 2231  cd ..
+ 2232  ll
+ 2233  rm -r FWT_synthetic_test/
+ 2234  rm -rf FWT_synthetic_test/
+ 2235  whoami
+ 2236  git clone git@github.com:ucgmsim/FWT_synthetic_test.git
+ 2237  cd FWT_synthetic_test/
+ 2238  ll
+ 2239  cp -R ../../INV1_148events_TRUE_DH_2km_rm_sources/ .
+ 2240  ll
+ 2241  git add INV1_148events_TRUE_DH_2km_rm_sources/
+ 2242  git commit -m 'added INV1_148events_TRUE_DH_2km_rm_sources into repo'
+ 2243  git push
+ 2244  history
+(base) user@C046KQ:~/workspace/GMPlots/synth_VMs/Medium_VMs/FWT_synthetic_test_Github/temp/FWT_synthetic_test$ 
+
